@@ -1,0 +1,67 @@
+.fix{
+    position: fixed;
+    background: rgba(64, 224, 208, 0.5);
+    min-height: 200px;
+    width: 100%;
+    border: 2px solid teal;
+   
+}
+.conteiner {
+    display: grid;
+    grid-template-areas: "div div div div";
+}
+.bloktexst {
+    display: grid;
+    grid-template-areas: "div" "div" ;
+    justify-items: center;
+    align-items: center;
+}
+.hed {
+    display: grid;
+    grid-template-areas: " bloktexst" "contakt";
+}
+.contakt{
+    display: flex;
+    justify-content: center;
+}
+.contakt button {
+    cursor: pointer;
+    background: turquoise;
+    border: 2px solid teal;
+}
+.contakt button:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.hedmenu  {
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+}
+.hedmenu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.hedmenu p {
+    color: white; 
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+.hedmenu p:hover {
+    color: teal;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+}
+.logomenu {
+    height: 100px;
+    width: 100px;
+}

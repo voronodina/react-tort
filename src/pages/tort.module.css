@@ -1,0 +1,50 @@
+.tort {
+    display: grid;
+    grid-template-areas: "Tortu Tortu";
+    justify-content:space-around;
+}
+.tortwind {
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "div" "div";
+    justify-items: center;
+    align-items: center;
+    border: 2px solid teal;
+}
+.contentwind {
+    border: 2px solid turquoise;
+   display: flex;
+}
+.textwind {
+    padding: 10px;
+    border: 2px solid turquoise;
+    display: grid;
+    grid-template-rows: "div div";
+}
+.titlewind {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.bodywind p {
+    width: 200px;
+    word-wrap: break-word;
+}
+.logotort {
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    -webkit-transition: width 3s, height 3s;
+    transition: width 3s, height 3s;
+}
+.logotort:hover {
+    width: 400px;
+    height: 400px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.contaktwind {
+    padding: 10px;
+    border: 2px solid teal;
+}

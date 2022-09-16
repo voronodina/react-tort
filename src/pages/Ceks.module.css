@@ -1,0 +1,47 @@
+.windceks {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 1.5rem;
+    border: 2px solid teal;
+    justify-items: center;
+    align-items: center;
+}
+.textcont {
+    display: grid;
+    grid-template-rows: "div" "div";
+    justify-items: center;
+    align-items: center;
+    border: 2px solid teal;
+    padding: 10px;
+    min-height: 100px;
+    max-height: auto;
+    min-width: 100px;
+    max-width: 300px;
+}
+.windlogo {
+    border: 2px solid turquoise;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+.windlogo:hover {
+    width: 300px;
+    height: 300px;
+}
+.ceks {
+    display: grid;
+    grid-template-areas: "Ceks Ceks";
+    justify-content: space-around;
+}
+.windbody {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.title {
+    padding: 5px;
+    border: 2px solid turquoise;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}

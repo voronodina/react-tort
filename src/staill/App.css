@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;  
+    font-family: cursive;
+}
+
+.ceks {
+    padding-top: 150px;
+}
+.pidhedposishn {
+    display: flex;
+    justify-content: center;
+}

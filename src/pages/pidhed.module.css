@@ -1,0 +1,60 @@
+.pidhed {
+    min-width: 300px;
+    max-width: 930px;
+    height: 100%;
+    margin: 0px;
+    padding-top: 202px;
+    background: white;
+    display: grid;
+    grid-template-areas: "div div";
+    justify-content: center;
+}
+.textcont {
+    max-width: 100%;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-area: auto ;
+    grid-template-areas: "div""div";
+}
+.textcont p {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    color: teal;
+}
+.textcont h1 {
+    padding-bottom: 25px; 
+}
+.textcont a {
+    color: turquoise;
+}
+.imgblok {
+    padding-right: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.imeg {
+    max-width: 100%;
+    min-width: 300px;
+  background: #6d6d6d;
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+.imeg:hover {
+    box-shadow:
+    1px 1px teal,
+    2px 2px turquoise,
+    3px 3px teal,
+    4px 4px turquoise,
+    5px 5px teal,
+    6px 6px turquoise,
+    7px 7px teal;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
